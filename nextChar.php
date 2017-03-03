@@ -10,18 +10,16 @@ $arr=array('a','e','i','o','u');
   		$b++;
       if(in_array($b,$arr)){
           $b = strtoupper($b);
-          
       }
       $str[$i]=$b;
   	}
       $s=$s."".$str[$i];   
   }
-  
   return $s; 
          
 }
      
-echo LetterChanges('123456789ae');  
+echo LetterChanges('123456789aed');  
 
 ?>
 
